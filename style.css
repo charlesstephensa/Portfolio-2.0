@@ -19,6 +19,11 @@ body{
     flex-wrap: wrap;
     background-color: darkgray;
 }
+.group img{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
 .group{
     display: flex;
     flex-direction: column;
