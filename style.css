@@ -5,6 +5,8 @@ h1, h2, h3, p {
 .navigation {
     background-color: lightgray;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;    
 }
 body{
     background-color:  darkgray
@@ -19,7 +21,7 @@ body{
 }
 .group{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 section{
     border-radius: 10px;
