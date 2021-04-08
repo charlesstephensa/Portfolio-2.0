@@ -12,6 +12,7 @@ body{
 .item{
     flex: 1;
     background-color: darkslateblue;
+    flex-direction: column;
 }
 .group{
     display: flex;
