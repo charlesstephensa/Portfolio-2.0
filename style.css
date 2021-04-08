@@ -19,7 +19,7 @@ body{
     flex-wrap: wrap;
     background-color: darkgray;
 }
-.group img{
+.about .group img{
     display: flex;
     flex-direction: row;
     margin: 20px;
