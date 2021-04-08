@@ -11,7 +11,9 @@ body{
 }
 .item{
     flex: 1;
+    background-color: darkslateblue;
 }
 .group{
     display: flex;
+    flex-direction: row;
 }
