@@ -36,12 +36,16 @@ body{
 }
 section{
     border-radius: 10px;
+    margin: 20px;
 }
 form label, form input{
     display: block;
     font-size: 16px;
     margin-bottom: 10px;
     color: gray;
+}
+.contact, .projects{
+    background-color:lightslategray
 }
 @media all and (min-width: 800px) {
     p {
