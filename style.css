@@ -1,1 +1,17 @@
-
+h1, h2, h3, p {
+    color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+.navigation {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+body{
+    background-color:  darkgray
+}
+.item{
+    flex: 1;
+}
+.group{
+    display: flex;
+}
