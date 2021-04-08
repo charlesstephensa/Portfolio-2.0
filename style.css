@@ -13,6 +13,8 @@ body{
     flex: 1;
     background-color: darkslateblue;
     flex-direction: column;
+    max-width: 400px;
+    flex-wrap: wrap;
 }
 .group{
     display: flex;
