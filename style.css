@@ -24,8 +24,8 @@ body{
     flex-direction: row;
     margin: 20px;
     flex-shrink:0;
-    min-width:50%;
-    min-height:50%;
+    min-width:100%;
+    min-height:100%;
     width: 400px;
     height: 400px;
 }
