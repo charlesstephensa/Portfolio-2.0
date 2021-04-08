@@ -11,6 +11,7 @@ body{
 }
 .item{
     flex: 1;
+    margin: 10px;
     flex-direction: column;
     max-width: 400px;
     flex-wrap: wrap;
@@ -19,3 +20,14 @@ body{
     display: flex;
     flex-direction: row;
 }
+section{
+    border-radius: 10px;
+}
+@media all and (min-width: 800px) {
+    p {
+      font-size: 16px;
+    }
+    .group {
+        flex-direction: row;
+      }
+  }
