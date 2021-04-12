@@ -1,60 +1,78 @@
-h1, h2, h3, p {
-    color: darkslategray;
+h1, h2, h3, p  {
+    color: black;
     font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    max-width: 800px;
+
 }
-.navigation {
-    background-color: lightgray;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: row;    
+header ,nav{
+  background-color: gray;
+}
+
+ul, li {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
 }
 body{
     background-color:  darkgray
 }
 
 .item{
-    flex: 1;
-    margin: 10px;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex: 2;
+    flex-direction: row;
     background-color: darkgray;
 }
-.about .group img{
-    display: flex;
-    flex-direction: row;
-    margin: 20px;
-    flex-shrink:0;
-    width:100%;
-}
+
 .group{
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
+  display: flex;
+  flex-direction: column;
 }
+
+
 section{
     border-radius: 10px;
-    margin: 20px;
+
 }
+
 form{
-    width : 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+  width : 100%;
+}
+.Img{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
 }
 .Imgs{
-    width :100%;
-}
+  width: 300px;
+  height: 300px;
+  background-position: center;
+  object-fit: cover;
+  padding: 20px;
+  border-radius:30px;
+  }
+
 form label, form input{
     display: flex;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    margin-bottom: 10px;
-    color: gray;
+    color: black;
+    padding-left: 20px;
 }
 .contact, .projects{
     background-color:lightslategray
 }
+
 @media all and (min-width: 800px) {
     p {
       font-size: 16px;
     }
-    .group {
-        flex-direction: column;
-      }
+
+    a{
+      color: darkslategray;
+    }
+
   }
